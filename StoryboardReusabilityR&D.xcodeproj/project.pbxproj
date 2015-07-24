@@ -14,6 +14,7 @@
 		2B404EFD1B628BA60013CA26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EFC1B628BA60013CA26 /* Images.xcassets */; };
 		2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EFE1B628BA60013CA26 /* LaunchScreen.xib */; };
 		2B404F0C1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */; };
+		2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F161B628E990013CA26 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2B404F051B628BA60013CA26 /* StoryboardReusabilityR&DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StoryboardReusabilityR&DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B404F0A1B628BA60013CA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardReusabilityR_DTests.m; sourceTree = "<group>"; };
+		2B404F151B628E990013CA26 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2B404F161B628E990013CA26 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				2B404EFC1B628BA60013CA26 /* Images.xcassets */,
 				2B404EFE1B628BA60013CA26 /* LaunchScreen.xib */,
 				2B404EEF1B628BA60013CA26 /* Supporting Files */,
+				2B404F151B628E990013CA26 /* CollectionViewCell.h */,
+				2B404F161B628E990013CA26 /* CollectionViewCell.m */,
 			);
 			path = "StoryboardReusabilityR&D";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				2B404EF81B628BA60013CA26 /* ViewController.m in Sources */,
 				2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */,
+				2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */,
 				2B404EF21B628BA60013CA26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
