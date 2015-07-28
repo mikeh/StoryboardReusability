@@ -15,6 +15,7 @@
 		2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EFE1B628BA60013CA26 /* LaunchScreen.xib */; };
 		2B404F0C1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */; };
 		2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F161B628E990013CA26 /* CollectionViewCell.m */; };
+		2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7FCCA31B676FFA004EA2F6 /* photo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardReusabilityR_DTests.m; sourceTree = "<group>"; };
 		2B404F151B628E990013CA26 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		2B404F161B628E990013CA26 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		2B7FCCA31B676FFA004EA2F6 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		2B404EEE1B628BA60013CA26 /* StoryboardReusabilityR&D */ = {
 			isa = PBXGroup;
 			children = (
+				2B7FCCA31B676FFA004EA2F6 /* photo2.png */,
 				2B404EF31B628BA60013CA26 /* AppDelegate.h */,
 				2B404EF41B628BA60013CA26 /* AppDelegate.m */,
 				2B404EF61B628BA60013CA26 /* ViewController.h */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B404EFB1B628BA60013CA26 /* Main.storyboard in Resources */,
+				2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */,
 				2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */,
 				2B404EFD1B628BA60013CA26 /* Images.xcassets in Resources */,
 			);
@@ -424,6 +428,7 @@
 				2B404F111B628BA60013CA26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B404F121B628BA60013CA26 /* Build configuration list for PBXNativeTarget "StoryboardReusabilityR&DTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				2B404F141B628BA60013CA26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
