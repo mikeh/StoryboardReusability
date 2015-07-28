@@ -16,6 +16,8 @@
 		2B404F0C1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */; };
 		2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F161B628E990013CA26 /* CollectionViewCell.m */; };
 		2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7FCCA31B676FFA004EA2F6 /* photo2.png */; };
+		2B7FCCA71B67B5EF004EA2F6 /* TheSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7FCCA61B67B5EF004EA2F6 /* TheSecondVC.m */; };
+		2B7FCCAA1B67C7F2004EA2F6 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7FCCA91B67C7F2004EA2F6 /* InitialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		2B404F151B628E990013CA26 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		2B404F161B628E990013CA26 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		2B7FCCA31B676FFA004EA2F6 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		2B7FCCA51B67B5EF004EA2F6 /* TheSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheSecondVC.h; sourceTree = "<group>"; };
+		2B7FCCA61B67B5EF004EA2F6 /* TheSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSecondVC.m; sourceTree = "<group>"; };
+		2B7FCCA81B67C7F2004EA2F6 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		2B7FCCA91B67C7F2004EA2F6 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 				2B404EEF1B628BA60013CA26 /* Supporting Files */,
 				2B404F151B628E990013CA26 /* CollectionViewCell.h */,
 				2B404F161B628E990013CA26 /* CollectionViewCell.m */,
+				2B7FCCA51B67B5EF004EA2F6 /* TheSecondVC.h */,
+				2B7FCCA61B67B5EF004EA2F6 /* TheSecondVC.m */,
+				2B7FCCA81B67C7F2004EA2F6 /* InitialViewController.h */,
+				2B7FCCA91B67C7F2004EA2F6 /* InitialViewController.m */,
 			);
 			path = "StoryboardReusabilityR&D";
 			sourceTree = "<group>";
@@ -231,7 +241,9 @@
 				2B404EF81B628BA60013CA26 /* ViewController.m in Sources */,
 				2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */,
 				2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */,
+				2B7FCCAA1B67C7F2004EA2F6 /* InitialViewController.m in Sources */,
 				2B404EF21B628BA60013CA26 /* main.m in Sources */,
+				2B7FCCA71B67B5EF004EA2F6 /* TheSecondVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
