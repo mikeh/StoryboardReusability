@@ -16,6 +16,9 @@
 		2B404F0C1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */; };
 		2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F161B628E990013CA26 /* CollectionViewCell.m */; };
 		2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7FCCA31B676FFA004EA2F6 /* photo2.png */; };
+		2B7FCCAD1B67D319004EA2F6 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7FCCAC1B67D319004EA2F6 /* InitialViewController.m */; };
+		2B7FCCB01B67D341004EA2F6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7FCCAF1B67D341004EA2F6 /* SecondViewController.m */; };
+		2B7FCCB21B67D3E8004EA2F6 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7FCCB11B67D3E8004EA2F6 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,11 @@
 		2B404F151B628E990013CA26 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		2B404F161B628E990013CA26 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		2B7FCCA31B676FFA004EA2F6 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		2B7FCCAB1B67D319004EA2F6 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		2B7FCCAC1B67D319004EA2F6 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		2B7FCCAE1B67D341004EA2F6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2B7FCCAF1B67D341004EA2F6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2B7FCCB11B67D3E8004EA2F6 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,11 @@
 				2B404EEF1B628BA60013CA26 /* Supporting Files */,
 				2B404F151B628E990013CA26 /* CollectionViewCell.h */,
 				2B404F161B628E990013CA26 /* CollectionViewCell.m */,
+				2B7FCCAB1B67D319004EA2F6 /* InitialViewController.h */,
+				2B7FCCAC1B67D319004EA2F6 /* InitialViewController.m */,
+				2B7FCCAE1B67D341004EA2F6 /* SecondViewController.h */,
+				2B7FCCAF1B67D341004EA2F6 /* SecondViewController.m */,
+				2B7FCCB11B67D3E8004EA2F6 /* CollectionViewCell.xib */,
 			);
 			path = "StoryboardReusabilityR&D";
 			sourceTree = "<group>";
@@ -211,6 +224,7 @@
 				2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */,
 				2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */,
 				2B404EFD1B628BA60013CA26 /* Images.xcassets in Resources */,
+				2B7FCCB21B67D3E8004EA2F6 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7FCCB01B67D341004EA2F6 /* SecondViewController.m in Sources */,
+				2B7FCCAD1B67D319004EA2F6 /* InitialViewController.m in Sources */,
 				2B404EF81B628BA60013CA26 /* ViewController.m in Sources */,
 				2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */,
 				2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */,
