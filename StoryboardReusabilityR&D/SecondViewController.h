@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  StoryboardReusabilityR&D
 //
 //  Created by Silviu Odobescu on 29/07/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SecondViewController : UIViewController
 
 @end

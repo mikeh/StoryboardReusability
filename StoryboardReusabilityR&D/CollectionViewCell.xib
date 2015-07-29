@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="wIK-T7-5yS" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2sz-6u-ZfO">
+                        <rect key="frame" x="10" y="5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2sz-6u-ZfO" secondAttribute="height" multiplier="1:1" id="hoR-Hk-ToB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4am-Tn-Ipy">
+                        <rect key="frame" x="78" y="8" width="214" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4am-Tn-Ipy" secondAttribute="trailing" constant="8" id="BiZ-8l-s4f"/>
+                <constraint firstItem="2sz-6u-ZfO" firstAttribute="top" secondItem="wIK-T7-5yS" secondAttribute="top" constant="5" id="Swe-mb-TJ9"/>
+                <constraint firstItem="4am-Tn-Ipy" firstAttribute="top" secondItem="wIK-T7-5yS" secondAttribute="top" constant="8" id="guK-GB-NHX"/>
+                <constraint firstItem="4am-Tn-Ipy" firstAttribute="leading" secondItem="2sz-6u-ZfO" secondAttribute="trailing" constant="8" id="oci-wW-Cp2"/>
+                <constraint firstItem="2sz-6u-ZfO" firstAttribute="leading" secondItem="wIK-T7-5yS" secondAttribute="leading" constant="10" id="pkp-tl-7y4"/>
+                <constraint firstAttribute="bottom" secondItem="2sz-6u-ZfO" secondAttribute="bottom" constant="5" id="tzN-K8-aQr"/>
+            </constraints>
+            <connections>
+                <outlet property="cellImageView" destination="2sz-6u-ZfO" id="QSI-ev-GE4"/>
+                <outlet property="cellLabel" destination="4am-Tn-Ipy" id="vLV-dZ-R2J"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

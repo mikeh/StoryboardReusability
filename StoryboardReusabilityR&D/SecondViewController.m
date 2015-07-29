@@ -1,22 +1,21 @@
 //
-//  ViewController.m
+//  SecondViewController.m
 //  StoryboardReusabilityR&D
 //
-//  Created by Silviu Odobescu on 24/07/15.
+//  Created by Silviu Odobescu on 29/07/15.
 //  Copyright (c) 2015 Silviu Odobescu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SecondViewController.h"
 #import "CollectionViewCell.h"
 
-@interface ViewController () < UICollectionViewDataSource >
+@interface SecondViewController () < UICollectionViewDataSource >
 
 @property (weak, nonatomic) IBOutlet UICollectionView *mainCollectionView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *theLayout;
-
 @end
 
-@implementation ViewController
+@implementation SecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -55,7 +54,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
-    cell.cellLabel.text = @"Starship Enterprise NX-01";
+    cell.cellLabel.text = @"NX-01 Enterprise";
     cell.cellImageView.image = [UIImage imageNamed:@"photo2"];
     
     return cell;

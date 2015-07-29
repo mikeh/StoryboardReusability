@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		2B404EF21B628BA60013CA26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404EF11B628BA60013CA26 /* main.m */; };
 		2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404EF41B628BA60013CA26 /* AppDelegate.m */; };
-		2B404EF81B628BA60013CA26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404EF71B628BA60013CA26 /* ViewController.m */; };
 		2B404EFB1B628BA60013CA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EF91B628BA60013CA26 /* Main.storyboard */; };
 		2B404EFD1B628BA60013CA26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EFC1B628BA60013CA26 /* Images.xcassets */; };
 		2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EFE1B628BA60013CA26 /* LaunchScreen.xib */; };
 		2B404F0C1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F0B1B628BA60013CA26 /* StoryboardReusabilityR_DTests.m */; };
 		2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404F161B628E990013CA26 /* CollectionViewCell.m */; };
 		2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7FCCA31B676FFA004EA2F6 /* photo2.png */; };
+		2BEDB5511B69004D003C0439 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDB5501B69004D003C0439 /* InitialViewController.m */; };
+		2BEDB5531B6901B7003C0439 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDB5521B6901B7003C0439 /* CollectionViewCell.xib */; };
+		2BEDB5571B6910F2003C0439 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDB5551B6910F2003C0439 /* ViewController.m */; };
+		2BEDB5581B6910F2003C0439 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDB5561B6910F2003C0439 /* ViewController.xib */; };
+		2BEDB55C1B6913EA003C0439 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDB55A1B6913EA003C0439 /* SecondViewController.m */; };
+		2BEDB55D1B6913EA003C0439 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDB55B1B6913EA003C0439 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +39,6 @@
 		2B404EF11B628BA60013CA26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B404EF31B628BA60013CA26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B404EF41B628BA60013CA26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B404EF61B628BA60013CA26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B404EF71B628BA60013CA26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B404EFA1B628BA60013CA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B404EFC1B628BA60013CA26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B404EFF1B628BA60013CA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 		2B404F151B628E990013CA26 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		2B404F161B628E990013CA26 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		2B7FCCA31B676FFA004EA2F6 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		2BEDB54F1B69004D003C0439 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		2BEDB5501B69004D003C0439 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		2BEDB5521B6901B7003C0439 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		2BEDB5541B6910F2003C0439 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BEDB5551B6910F2003C0439 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BEDB5561B6910F2003C0439 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2BEDB5591B6913EA003C0439 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2BEDB55A1B6913EA003C0439 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2BEDB55B1B6913EA003C0439 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +98,24 @@
 		2B404EEE1B628BA60013CA26 /* StoryboardReusabilityR&D */ = {
 			isa = PBXGroup;
 			children = (
+				2BEDB5541B6910F2003C0439 /* ViewController.h */,
+				2BEDB5551B6910F2003C0439 /* ViewController.m */,
+				2BEDB5561B6910F2003C0439 /* ViewController.xib */,
 				2B7FCCA31B676FFA004EA2F6 /* photo2.png */,
 				2B404EF31B628BA60013CA26 /* AppDelegate.h */,
 				2B404EF41B628BA60013CA26 /* AppDelegate.m */,
-				2B404EF61B628BA60013CA26 /* ViewController.h */,
-				2B404EF71B628BA60013CA26 /* ViewController.m */,
 				2B404EF91B628BA60013CA26 /* Main.storyboard */,
 				2B404EFC1B628BA60013CA26 /* Images.xcassets */,
 				2B404EFE1B628BA60013CA26 /* LaunchScreen.xib */,
 				2B404EEF1B628BA60013CA26 /* Supporting Files */,
 				2B404F151B628E990013CA26 /* CollectionViewCell.h */,
 				2B404F161B628E990013CA26 /* CollectionViewCell.m */,
+				2BEDB54F1B69004D003C0439 /* InitialViewController.h */,
+				2BEDB5501B69004D003C0439 /* InitialViewController.m */,
+				2BEDB5521B6901B7003C0439 /* CollectionViewCell.xib */,
+				2BEDB5591B6913EA003C0439 /* SecondViewController.h */,
+				2BEDB55A1B6913EA003C0439 /* SecondViewController.m */,
+				2BEDB55B1B6913EA003C0439 /* SecondViewController.xib */,
 			);
 			path = "StoryboardReusabilityR&D";
 			sourceTree = "<group>";
@@ -208,8 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B404EFB1B628BA60013CA26 /* Main.storyboard in Resources */,
+				2BEDB55D1B6913EA003C0439 /* SecondViewController.xib in Resources */,
+				2BEDB5531B6901B7003C0439 /* CollectionViewCell.xib in Resources */,
 				2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */,
 				2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */,
+				2BEDB5581B6910F2003C0439 /* ViewController.xib in Resources */,
 				2B404EFD1B628BA60013CA26 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,10 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B404EF81B628BA60013CA26 /* ViewController.m in Sources */,
+				2BEDB55C1B6913EA003C0439 /* SecondViewController.m in Sources */,
+				2BEDB5511B69004D003C0439 /* InitialViewController.m in Sources */,
 				2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */,
 				2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */,
 				2B404EF21B628BA60013CA26 /* main.m in Sources */,
+				2BEDB5571B6910F2003C0439 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
