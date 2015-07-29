@@ -2,14 +2,45 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewCell"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-        </view>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="Adi-mz-5mY" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wUC-w4-4K0">
+                        <rect key="frame" x="10" y="5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wUC-w4-4K0" secondAttribute="height" multiplier="1:1" id="aja-lI-A58"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iin-lK-vG7">
+                        <rect key="frame" x="78" y="8" width="214" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iin-lK-vG7" secondAttribute="trailing" constant="8" id="LlE-8d-ElP"/>
+                <constraint firstItem="wUC-w4-4K0" firstAttribute="leading" secondItem="Adi-mz-5mY" secondAttribute="leading" constant="10" id="OwU-k1-FR7"/>
+                <constraint firstAttribute="bottom" secondItem="wUC-w4-4K0" secondAttribute="bottom" constant="5" id="XP8-DC-EpU"/>
+                <constraint firstItem="iin-lK-vG7" firstAttribute="leading" secondItem="wUC-w4-4K0" secondAttribute="trailing" constant="8" id="XkO-8r-N3h"/>
+                <constraint firstItem="wUC-w4-4K0" firstAttribute="top" secondItem="Adi-mz-5mY" secondAttribute="top" constant="5" id="hhz-Ad-Ypy"/>
+                <constraint firstItem="iin-lK-vG7" firstAttribute="top" secondItem="Adi-mz-5mY" secondAttribute="top" constant="8" id="irl-Sx-Agn"/>
+            </constraints>
+            <connections>
+                <outlet property="cellImageView" destination="wUC-w4-4K0" id="WPy-rj-xAB"/>
+                <outlet property="cellLabel" destination="iin-lK-vG7" id="dge-x7-59M"/>
+            </connections>
+        </collectionViewCell>
     </objects>
 </document>
