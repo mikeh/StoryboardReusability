@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277DF9DE1B6A3420005C0291 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277DF9DD1B6A3420005C0291 /* FirstViewController.m */; };
 		2B404EF21B628BA60013CA26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404EF11B628BA60013CA26 /* main.m */; };
 		2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B404EF41B628BA60013CA26 /* AppDelegate.m */; };
 		2B404EFB1B628BA60013CA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B404EF91B628BA60013CA26 /* Main.storyboard */; };
@@ -20,7 +21,6 @@
 		2BEDB5571B6910F2003C0439 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDB5551B6910F2003C0439 /* ViewController.m */; };
 		2BEDB5581B6910F2003C0439 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDB5561B6910F2003C0439 /* ViewController.xib */; };
 		2BEDB55C1B6913EA003C0439 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDB55A1B6913EA003C0439 /* SecondViewController.m */; };
-		2BEDB55D1B6913EA003C0439 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEDB55B1B6913EA003C0439 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277DF9DC1B6A3420005C0291 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		277DF9DD1B6A3420005C0291 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		2B404EEC1B628BA60013CA26 /* StoryboardReusabilityR&D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StoryboardReusabilityR&D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B404EF01B628BA60013CA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B404EF11B628BA60013CA26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 		2BEDB5561B6910F2003C0439 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		2BEDB5591B6913EA003C0439 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2BEDB55A1B6913EA003C0439 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2BEDB55B1B6913EA003C0439 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +116,8 @@
 				2BEDB5521B6901B7003C0439 /* CollectionViewCell.xib */,
 				2BEDB5591B6913EA003C0439 /* SecondViewController.h */,
 				2BEDB55A1B6913EA003C0439 /* SecondViewController.m */,
-				2BEDB55B1B6913EA003C0439 /* SecondViewController.xib */,
+				277DF9DC1B6A3420005C0291 /* FirstViewController.h */,
+				277DF9DD1B6A3420005C0291 /* FirstViewController.m */,
 			);
 			path = "StoryboardReusabilityR&D";
 			sourceTree = "<group>";
@@ -227,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B404EFB1B628BA60013CA26 /* Main.storyboard in Resources */,
-				2BEDB55D1B6913EA003C0439 /* SecondViewController.xib in Resources */,
 				2BEDB5531B6901B7003C0439 /* CollectionViewCell.xib in Resources */,
 				2B7FCCA41B676FFA004EA2F6 /* photo2.png in Resources */,
 				2B404F001B628BA60013CA26 /* LaunchScreen.xib in Resources */,
@@ -252,6 +253,7 @@
 			files = (
 				2BEDB55C1B6913EA003C0439 /* SecondViewController.m in Sources */,
 				2BEDB5511B69004D003C0439 /* InitialViewController.m in Sources */,
+				277DF9DE1B6A3420005C0291 /* FirstViewController.m in Sources */,
 				2B404EF51B628BA60013CA26 /* AppDelegate.m in Sources */,
 				2B404F171B628E990013CA26 /* CollectionViewCell.m in Sources */,
 				2B404EF21B628BA60013CA26 /* main.m in Sources */,

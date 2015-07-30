@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "CollectionViewCell.h"
 
-@interface ViewController () < UICollectionViewDataSource >
+@interface ViewController () <UICollectionViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *mainCollectionView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *theLayout;
@@ -18,7 +18,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
@@ -42,6 +43,7 @@
 }
 
 #pragma mark - UICollectionView DataSource and Delegate methods
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
     return 1;

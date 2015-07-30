@@ -1,25 +1,22 @@
 //
-//  SecondViewController.m
+//  FirstViewController.m
 //  StoryboardReusabilityR&D
 //
-//  Created by Silviu Odobescu on 29/07/15.
+//  Created by Mike Hatfield on 30/07/2015.
 //  Copyright (c) 2015 Silviu Odobescu. All rights reserved.
 //
 
-#import "SecondViewController.h"
-#import "CollectionViewCell.h"
+#import "FirstViewController.h"
 
-@interface SecondViewController () < UICollectionViewDataSource >
+@interface FirstViewController ()
 
 @end
 
-@implementation SecondViewController
-
-#pragma mark - UICollectionView DataSource and Delegate methods
+@implementation FirstViewController
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 4;
+    return 3;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath

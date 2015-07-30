@@ -7,7 +7,7 @@
 //
 
 #import "InitialViewController.h"
-#import "ViewController.h"
+#import "FirstViewController.h"
 #import "SecondViewController.h"
 
 @interface InitialViewController ()
@@ -16,20 +16,15 @@
 
 @implementation InitialViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
 - (IBAction)firstButtonTapped:(id)sender
 {
-    ViewController *vc = [[ViewController alloc] initWithNibName:@"ViewController" bundle:[NSBundle mainBundle]];
+    ViewController *vc = [[FirstViewController alloc] initWithNibName:@"ViewController" bundle:[NSBundle mainBundle]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (IBAction)secondButtonTapped:(id)sender
 {
-    SecondViewController *vc = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:[NSBundle mainBundle]];
+    SecondViewController *vc = [[SecondViewController alloc] initWithNibName:@"ViewController" bundle:[NSBundle mainBundle]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end

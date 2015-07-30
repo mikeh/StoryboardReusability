@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Silviu Odobescu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : ViewController
 
 @end
